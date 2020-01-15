@@ -2,6 +2,7 @@ package de.breuco.examples.reprobuilds;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String helloWorld = "Hello world!";
+        System.out.println(helloWorld.indent(1));
     }
 }

@@ -9,8 +9,8 @@ class MainTest {
 
     @Test
     void failOnWrongJavaVersion() {
-        assertThat(Runtime.version().feature(), is(11));
-        assertThat(Runtime.version().update(), is(5));
+        assertThat(Runtime.version().feature(), is(12));
+        assertThat(Runtime.version().update(), is(2));
     }
 
 }

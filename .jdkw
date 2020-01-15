@@ -1,5 +1,8 @@
 JDKW_RELEASE=latest
 JDKW_DIST=adpt
+#Oops, someone forgot to update the jdk version! To fix:
+#JDKW_BUILD=10.2
+#JDKW_VERSION=12.0.2
 JDKW_BUILD=10
 JDKW_VERSION=11.0.5
 JVM_IMPL=hotspot

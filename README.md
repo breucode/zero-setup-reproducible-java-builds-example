@@ -14,7 +14,7 @@ java 13 version (13.0.1) is not used
  declaration of the corresponding jdk in the `.jdkw` file
 
 There are CI pipelines for every branch in 
-[actions](https://github.com/breucode/zero-setup-reproducible-java-builds-example/actions).
+[actions](https://github.com/breucode/zero-setup-reproducible-java-builds-example/actions) (you must be logged in to view this).
 
 NOTE: Currently, `jdkw-impl.sh` from [this PR](https://github.com/KoskiLabs/jdk-wrapper/pull/35) is used, because the 
 current release of [KoskiLabs/jdk-wrapper](https://github.com/KoskiLabs/jdk-wrapper) does not support AdoptOpenJDK. 

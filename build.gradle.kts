@@ -11,6 +11,10 @@ dependencies {
     testImplementation("org.hamcrest:hamcrest:2.2")
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_10
+}
+
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
